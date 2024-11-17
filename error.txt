@@ -1,0 +1,19 @@
+/usr/include/c++/9/debug/vector:427:
+In function:
+    std::__debug::vector<_Tp, _Allocator>::reference 
+    std::__debug::vector<_Tp, 
+    _Allocator>::operator[](std::__debug::vector<_Tp, 
+    _Allocator>::size_type) [with _Tp = unsigned int; _Allocator = 
+    std::allocator<unsigned int>; std::__debug::vector<_Tp, 
+    _Allocator>::reference = unsigned int&; std::__debug::vector<_Tp, 
+    _Allocator>::size_type = long unsigned int]
+
+Error: attempt to subscript container with out-of-bounds index 0, but 
+container only holds 0 elements.
+
+Objects involved in the operation:
+    sequence "this" @ 0x0x7fffffffdbe8 {
+      type = std::__debug::vector<unsigned int, std::allocator<unsigned int> >;
+    }
+ >;
+    }
